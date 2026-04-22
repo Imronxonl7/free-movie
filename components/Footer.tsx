@@ -1,10 +1,14 @@
-import React from 'react'
+import Container from "./Container"
 
 const Footer = () => {
   return (
-    <div>
-      
-    </div>
+    <section>
+      <Container className="Your Style">
+        <div>
+            {/** Input your code here */}
+        </div>
+      </Container>
+    </section>
   )
 }
 

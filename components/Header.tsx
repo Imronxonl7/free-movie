@@ -1,10 +1,13 @@
-import React from 'react'
-
+import Container from "./Container"
 const Header = () => {
   return (
-    <div>
-      <Container></Container>
-    </div>
+    <section>
+      <Container className="Your Style">
+        <div>
+          {/** Input your code here */}
+        </div>
+      </Container>
+    </section>
   )
 }
 
